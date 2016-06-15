@@ -1,0 +1,32 @@
+.articles {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 30px 0;
+}
+.mbxl {
+    margin-bottom: 30px !important;
+}
+.articles img {
+    display: inline-block;
+}
+.articles img {
+    max-width: 100%;
+}
+.article-header {
+    font-weight: 700;
+    line-height: 1.33333;
+    margin-top: 15px;
+    padding: 0 60px;
+}
+.articles p {
+    margin-bottom: 0;
+}
+.article-read-more {
+    color: #91c11e;
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.mbm {
+    margin-bottom: 10px !important;
+}

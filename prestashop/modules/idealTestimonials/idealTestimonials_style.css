@@ -1,0 +1,12 @@
+.home-testimonials {
+    padding: 60px 0 30px;
+}
+.slick-slider {
+    margin-bottom: 30px;
+}
+.testimonial-img {
+    border-radius: 50%;
+    height: 80px !important;
+    margin: 15px auto 0;
+    width: 80px !important;
+}

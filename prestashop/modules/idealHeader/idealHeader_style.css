@@ -1,0 +1,216 @@
+
+/*\\\\\\\\\\\\\\\\\\\*/
+
+.top-bar {
+    background-color: #3a3a3a;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    z-index: 5;
+}
+.top-bar a, .top-bar a:hover {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.mas, .mhs, .mls {
+    margin-left: 5px !important;
+}
+
+.cart-count {
+    font-size: 24px !important;
+    line-height: 38px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+}
+.cart-count:hover {
+    text-decoration: none;
+}
+.article-read-more:hover, .cart-delivery-time:hover {
+    text-decoration: underline;
+}
+.cart-count-number {
+    background-color: #91c11e;
+    border-radius: 9px;
+    box-shadow: 0 0 0 2px #3a3a3a;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    right: -11px;
+    text-align: center;
+    top: -2px;
+    width: 18px;
+}
+.top-tel-link {
+    font-weight: 400 !important;
+}
+.top-contact-icon {
+    top: 2px;
+    font-size: 100%;
+}
+.top-contact-icon::before {
+    margin-left: 13px;
+    transform: scale(1.3);
+}
+.navigation-container {
+    background-color: #fff;
+    border-bottom: 2px solid #ececec;
+}
+.ideal-navbar-main .ideal-navbar-collapse {
+    padding: 0;
+}
+.ideal-navbar-home {
+    top: 0;
+}
+.ideal-navbar {
+    border: medium none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.dropdown-menu > li > a {
+    color: #3a3a3a;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.ideal-navbar {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.ideal-navbar .navbar-nav > li > a::after {
+    background: #ff5a00 none repeat scroll 0 0;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(6px);
+    transition: height 0.25s ease 0s, transform 0.25s ease 0s;
+    width: 100%;
+}
+
+.ideal-navbar .navbar-nav > li > a {
+    color: #3a3a3a;
+}
+
+.navbar-nav > li {
+    border-bottom: 6px solid transparent;
+}
+
+.ideal-navbar .navbar-nav > li:not(.open) > a:focus::after, .navbar-nav > li:not(.open) > a:hover::after {
+    height: 6px;
+    transform: translateY(0px);
+}
+.ideal-navbar .navbar-nav .active {
+    border-color: #ff5a00;
+}
+.ideal-navbar .navbar-nav .active a{
+    background-color: white;
+}
+.ideal-navbar .navbar-nav > li > a {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.ideal-navbar .navbar-nav > li.open {
+    border-color: #3a3a3a;
+}
+.ideal-navbar .navbar-nav > li > .dropdown-menu {
+    margin-top: 6px;
+}
+.modal-title {
+    line-height: 1.28571;
+    text-align: center;
+}
+.modal-header {
+    border-bottom: medium none;
+}
+#faqModal h2 {
+    color: #3a3a3a;
+}
+#faqModal h3 {
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+#faqModal .acc_trigger + h3, .acc_trigger + h3 {
+    margin-top: 30px;
+}
+#faqModal .modal-body {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.acc_trigger {
+    padding: 5px 0;
+    cursor: pointer;
+}
+.imgContent {
+    margin-bottom: 5px;
+
+}
+.imgContent:before{
+    content: "\f138"; /*\f13a*/
+}
+.trigger_active > .imgContent:before {
+    content: "\f13a";
+}
+.acc_trigger > span {
+    font-size: 17px;
+}
+.trigger_active > span {
+    color: #91c11e;
+}
+.textContent {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-left: 18px;
+}
+#faqModal .modal-body h2, .textContent {
+    display: none;
+}
+.modal-sm {
+    width: 350px;
+}
+#loginModal .modal-title{
+    margin-bottom: 15px ;
+    margin-top: 15px ;
+    font-size: 15pt;
+}
+#loginModal .checkbox-inline {
+    padding-left: 0;
+}
+.checker {
+    display: inline-block;
+    margin-top: 2px ;
+}
+.modal .close {
+    color: #3a3a3a;
+    opacity: 1;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.modal .close-label {
+    font-size: 16px;
+    line-height: 1;
+}
+.modal .close-icon, .modal .close-label {
+    font-weight: 400;
+    vertical-align: top;
+}
+.modal .close-icon {
+    font-size: 22px;
+    line-height: 0.8;
+    margin-left: 7px;
+}
+#yt0 {
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+
+}

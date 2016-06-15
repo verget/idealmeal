@@ -1,0 +1,53 @@
+.how-it-works {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.man {
+    margin: 0 !important;
+    font-style: italic;
+    font-size: 36px;
+}
+/*.arrow-dotted::after, .arrow-solid::after {*/
+    /*background-size: 210px auto;*/
+    /*right: -105px;*/
+    /*width: 210px;*/
+/*}*/
+/*.arrow-dotted::after, .arrow-solid::after {*/
+    /*background-size: 170px auto;*/
+    /*right: -84px;*/
+    /*width: 170px;*/
+/*}*/
+.arrow-dotted::after, .arrow-solid::after {
+    background-image: url("views/templates/img/arrow-solid.png");
+    background-repeat: no-repeat;
+    background-size: 130px auto;
+    content: "";
+    height: 34px;
+    position: absolute;
+    right: -64px;
+    top: 12px;
+    width: 130px;
+}
+.arrow-dotted::after {
+    background-image: url("views/templates/img/arrow-dotted.png");
+}
+.how-it-works .row {
+    margin-top: 15px;
+}
+.hiw-header {
+    color: #3a3a3a;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 0;
+    padding: 0 30px;
+}
+.hiw-text {
+    color: #b1b1b1;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.text-success {
+    color: #91c11e;
+}

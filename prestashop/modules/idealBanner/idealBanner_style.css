@@ -1,0 +1,62 @@
+.section-inner-shadow {
+    box-shadow: 0 80px 60px -50px rgba(0, 0, 0, 0.2) inset;
+}
+
+/*.home-banner {*/
+    /*background-position: left top;*/
+    /*height: 280px;*/
+/*}*/
+.home-banner {
+    background-image: url("https://d3p7z1qndrc1ec.cloudfront.net/au/cms/Sushi/Banner/HF_Homepage_2016_1335x420_v2_1_AU.jpg");
+    background-position: 25% center;
+    background-size: cover;
+    border-bottom: 1px solid #f3f3f3;
+    height: 230px;
+    overflow: hidden;
+    padding-top: 40px;
+    position: relative;
+}
+.home-banner, .wide-banner {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.home-banner {
+    background-position: 25% center;
+    height: 420px;
+}
+
+.banner-header {
+    color: #3a3a3a;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+}
+.banner-header, .banner-text {
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+.banner-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.33333;
+    margin-top: 10px;
+    color: #3a3a3a;
+}
+.btn-cta:not(.btn-default) {
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-cta {
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 1.33;
+    padding: 18px 16px;
+    margin-top: 30px;
+    background-color: #ff5a00;
+    border-color: #e65100;
+    color: #fff;
+}
+.btn-cta.active, .btn-cta:active, .btn-cta:focus, .btn-cta:hover, .open > .btn-cta.dropdown-toggle {
+    background-color: #e65100;
+    border-color: #c24400;
+    color: #fff;
+}

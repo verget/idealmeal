@@ -1,0 +1,169 @@
+.light-gray-bg {
+    background-color: #f7f7f7;
+}
+
+.example-recipes-tab {
+    text-align: center;
+}
+.nav-tabs {
+    border-bottom: medium none;
+    overflow: hidden;
+}
+.nav {
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav::after, .nav::before {
+    content: " ";
+    display: table;
+}
+.nav-tabs .active {
+    border-color: #ff5a00;
+}
+.nav-tabs-center > li {
+    display: inline-block;
+    float: none;
+}
+.nav-tabs > li > a::after {
+    background: #ff5a00 none repeat scroll 0 0;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(6px);
+    transition: height 0.25s ease 0s, transform 0.25s ease 0s;
+    width: 100%;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: initial;
+    border: medium none !important;
+    color: #3a3a3a;
+    cursor: default;
+    font-weight: 600;
+}
+.nav-tabs > li > a {
+    border: medium none !important;
+    color: #9c9c9c;
+    font-size: 18px;
+    line-height: 1.28571;
+    margin-right: 0;
+    padding: 7px 13px;
+}
+.nav-tabs > li > a {
+    border-radius: 3px 3px 0 0;
+}
+.nav-tabs > li:not(.open) > a:focus::after, .nav-tabs > li:not(.open) > a:hover::after {
+    height: 6px;
+    transform: translateY(0px);
+}
+.nav-tabs > li {
+    border-bottom: 6px solid transparent;
+    margin-bottom: 0 !important;
+}
+
+
+.slick-prev::before {
+    margin-left: -3px;
+}
+.slick-next::before, .slick-prev::before {
+    color: #fff;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.slick-prev {
+    left: -18px;
+}
+.slick-arrow {
+    background: #91c11e none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #fff;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 36px;
+    line-height: 0;
+    margin-top: -18px;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    z-index: 99;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.slick-next::before {
+    margin-left: 13px;
+    content: "\f105";
+}
+.slick-prev::before {
+    margin-left: 10px;
+    content: "\f104";
+}
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+    background: #87b41c none repeat scroll 0 0;
+    box-shadow: 0 0 0 3px #fff, 0 0 8px 1px rgba(0, 0, 0, 0.5);
+    outline: 0 none;
+}
+.slick-next:focus::before, .slick-next:hover::before, .slick-prev:focus::before, .slick-prev:hover::before {
+    opacity: 1;
+}
+.slick-next.slick-disabled::before, .slick-prev.slick-disabled::before {
+    opacity: 0.25;
+}
+.slick-arrow::before {
+    color: #fff;
+    font-size: 38px;
+    line-height: 0.9;
+}
+.slick-next {
+    right: -18px;
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+.slick-initialized .slick-slide {
+    display: block;
+    position: relative;
+}
+.slick-slide {
+    opacity: 0.7;
+}
+.slick-active.slick-slide {
+    opacity: 1;
+}
+
+.slick-active .recipe-carousel {
+    opacity: 1;
+}
+.recipe-carousel {
+    background-color: rgba(58, 58, 58, 0.8);
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.recipe-carousel, .slick-slide {
+    transition: opacity 0.3s ease 0s;
+}
+.slick-slider {
+    margin-bottom: 30px;
+}
+/*.active .slick-track {*/
+    /*width: 100% !important;*/
+/*}*/
+.highlighted-recipes {
+    padding: 30px 0;
+}
